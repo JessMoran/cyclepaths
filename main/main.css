@@ -1,0 +1,17 @@
+body{
+  font-family: 'Righteous', cursive;
+}
+
+#nav {
+  background-color: #42C2EB;
+}
+
+#splash-img{
+  background-image: url("../images/bike.jpg");
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+}

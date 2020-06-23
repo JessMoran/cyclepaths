@@ -1,9 +1,13 @@
 body{
-  font-family: 'Righteous', cursive;
+  font-family: 'Quicksand', sans-serif;
 }
 
-#nav {
+.bg-teal {
   background-color: #42C2EB;
+}
+
+.text-teal {
+  color: #42C2EB;
 }
 
 #splash-img{

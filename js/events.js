@@ -83,7 +83,7 @@ function requestEvents(group) {
     method: "GET"
   }).then(function (response) {
 
-    if ( response.length === 0 ){
+    if (response.length === 0) {
       let divElem = $('<div>');
       let pElem = $('<p>');
 

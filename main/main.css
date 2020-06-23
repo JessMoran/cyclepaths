@@ -10,6 +10,10 @@ body{
   color: #42C2EB;
 }
 
+.bg-teal-dark {
+  color: #1a4d5e;
+}
+
 #splash-img{
   background-image: url("../images/bike.jpg");
   background-size:cover;

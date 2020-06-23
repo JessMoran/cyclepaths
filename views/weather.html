@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/9e5ac04d15.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="../main/main.css">
+  <title>Cyclepaths</title>
+</head>
+<body>
+<nav id="nav" class="flex items-center bg-teal justify-between flex-wrap bg-purple-900 p-6">
+  <div class="flex items-center flex-shrink-0 text-white mr-6">
+    <a href="../index.html">
+      <i class="fas fa-bicycle text-3xl mr-3"></i>
+      <span class="font-semibold text-xl tracking-tight">Cyclepaths</span>
+    </a>
+  </div>
+  <div class="block lg:hidden">
+    <button
+      class="flex items-center px-3 py-2 border rounded text-teal-300 border-teal-400 hover:text-white hover:border-white">
+      <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title>
+        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
+      </svg>
+    </button>
+  </div>
+  <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+    <div class="text-sm lg:flex-grow">
+      <a href="events.html" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+        Events
+      </a>
+      <a href="incidents.html" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+        Incidents
+      </a>
+      <a href="weather.html" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+        Weather
+      </a>
+    </div>
+  </div>
+</nav>
+<main class="text-center mx-auto w-4/5 mt-12">
+  <h1 class="text-4xl my-5 text-black">Weather</h1>
+  <div class="btns-temperature">
+    <button id="cel" class="bg-purple-500 hover:bg-purple-700 mr-4 text-white font-bold py-2 px-4 rounded-full">
+     Celcius
+    </button>
+    <button id="far" class="bg-purple-500 hover:bg-purple-700 mr-4 text-white font-bold py-2 px-4 rounded-full">
+      Fahrenheit
+    </button>
+    <button id="kel" class="bg-purple-500 hover:bg-purple-700 mr-4 text-white font-bold py-2 px-4 rounded-full">
+      Kelvin
+    </button>
+  </div>
+  <div class="shadow-lg w-1/4 mx-auto mt-20 p-12">
+    <h1 id="temp-main" class="text-6xl">0°</h1>
+    <h2 id="condition" class="mt-5 text-xl">unknown</h2>
+  </div>
+</main>
+<footer class="bg-purple-500 text-center mt-12 p-16">
+  <i class="far fa-heart text-white mr-3"></i>
+  <span class="text-white font-bold text-lg">Cyclepaths</span>
+  <p class="text-white mt-5 text-sm">by Jess Moran</p>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="../js/weather.js"></script>
+</body>
+</html>

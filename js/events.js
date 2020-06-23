@@ -62,8 +62,8 @@ function requestGroup(group) {
     img.attr('src', photo);
 
     container.addClass('bg-white shadow-lg rounded w-full mt-24 p-6');
-    h2.addClass('text-4xl text-teal-500 my-3 d-inline');
-    icon.addClass('fas fa-users text-teal-500 text-2xl m-3');
+    h2.addClass('text-4xl text-purple-500 my-3 d-inline');
+    icon.addClass('fas fa-users text-purple-500 text-2xl m-3');
 
     $('#groupDescription').append(container);
     $(container).append(h2);
@@ -148,11 +148,11 @@ function requestEvents(group) {
         addressLi.addClass('text-left');
         div.addClass('text-right');
         p.addClass('inline-block bg-gray-200 rounded-full px-3 py-1 text-xs font-semibold text-gray-700 mr-2');
-        stopWatchIcon.addClass(' text-teal-500  fas fa-stopwatch mr-3');
-        calendarIcon.addClass(' text-teal-500  far fa-calendar-alt mr-3');
-        timeIcon.addClass(' text-teal-500  far fa-clock mr-3');
-        mapIcon.addClass(' text-teal-500  fas fa-map-marked-alt mr-3');
-        paymentIcon.addClass(' text-teal-500  fas fa-money-bill-wave mr-3');
+        stopWatchIcon.addClass(' text-purple-500  fas fa-stopwatch mr-3');
+        calendarIcon.addClass(' text-purple-500  far fa-calendar-alt mr-3');
+        timeIcon.addClass(' text-purple-500  far fa-clock mr-3');
+        mapIcon.addClass(' text-purple-500  fas fa-map-marked-alt mr-3');
+        paymentIcon.addClass(' text-purple-500  fas fa-money-bill-wave mr-3');
         durationCont.addClass('flex m-3');
         timeCont.addClass('flex m-3');
         mapCont.addClass('flex m-3');
@@ -205,7 +205,7 @@ function cleanArea() {
   while (groupDescription.firstChild) {
     groupDescription.removeChild(groupDescription.firstChild);
   }
-  
+
   //Clear cards container
   while (cardsContainer.firstChild) {
     cardsContainer.removeChild(cardsContainer.firstChild);

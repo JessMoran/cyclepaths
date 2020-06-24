@@ -20,7 +20,7 @@ The following link demonstrates the deploying app:
 https://jessmoran.github.io/cyclepaths/
 
 ## To run 
-- Download or fork the application from [here]https://github.com/JessMoran/cyclepaths
+- Download or fork the application from [here](https://github.com/JessMoran/cyclepaths)
 - Select ``ìndex.html`` to start the app
 
 ## Author

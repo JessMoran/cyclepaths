@@ -89,7 +89,7 @@ function requestEvents(group) {
 
       pElem.text('No current events');
       divElem.addClass('flex justify-center text-center');
-      pElem.addClass('text-4xl text-white p-32');
+      pElem.addClass('text-4xl text-black p-32');
 
       $('#noEventsDiv').append(divElem);
       $(divElem).append(pElem);
